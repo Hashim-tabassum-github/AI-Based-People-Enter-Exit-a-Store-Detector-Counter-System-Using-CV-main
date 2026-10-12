@@ -1,0 +1,81 @@
+# YOLO People Counter - Requirements
+# 
+# This file contains all the necessary dependencies for the YOLO People Counter application.
+# Install with: pip install -r requirements.txt
+#
+# Last updated: September 2025
+# Compatible with Python 3.8+
+
+# Core Dependencies
+# ================
+
+# Ultralytics YOLO - Main computer vision framework
+ultralytics
+
+# OpenCV - Computer vision and video processing
+opencv-python
+
+# NumPy - Numerical computing and array operations
+numpy
+
+# Shapely - Geometric operations for polygon regions
+shapely
+
+# Additional Dependencies (automatically installed with ultralytics)
+# ================================================================
+
+
+# Pillow - Image processing
+Pillow
+
+# Matplotlib - Plotting and visualization
+matplotlib
+
+# PyYAML - Configuration file parsing
+PyYAML
+
+# Requests - HTTP library for model downloads
+requests
+
+# tqdm - Progress bars
+tqdm
+
+# pandas - Data manipulation (for CSV operations)
+pandas
+
+# Optional GPU Dependencies (uncomment if needed)
+# ==============================================
+# For NVIDIA GPU support (CUDA 12.1) - Latest
+--index-url https://download.pytorch.org/whl/cu126
+torch
+torchvision
+torchaudio
+
+
+# Development Dependencies (optional)
+# ==================================
+
+# black>=22.0.0  # Code formatting
+# flake8>=4.0.0  # Code linting
+# pytest>=7.0.0  # Testing framework
+
+# System-specific notes:
+# =====================
+# 
+# Windows users:
+# - Make sure to install Microsoft Visual C++ 14.0 or greater
+# - Consider using Anaconda for easier dependency management
+#
+# macOS users:
+# - Install Xcode command line tools: xcode-select --install
+# - For M1/M2 Macs, use: pip install --upgrade torch torchvision
+#
+# Linux users:
+# - Install system dependencies: sudo apt-get update && sudo apt-get install python3-dev
+# - For GPU support: Install NVIDIA drivers and CUDA toolkit
+#
+# Minimum versions tested:
+# - Python: 3.8.0
+# - CUDA: 11.2 (for GPU support)
+# - OpenCV: 4.5.0
+# - NumPy: 1.21.0

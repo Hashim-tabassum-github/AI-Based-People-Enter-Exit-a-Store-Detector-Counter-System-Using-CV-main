@@ -1,0 +1,6 @@
+obj/
+*.mp4
+*.avi
+*.pt
+ultralytics_rc_output/
+runs/
